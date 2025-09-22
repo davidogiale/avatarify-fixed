@@ -1,0 +1,29 @@
+name: avatarify
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - scipy
+  - scikit-image
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - pyyaml
+  - tqdm
+  - requests
+  - pillow
+  - imageio
+  - opencv
+  - ffmpeg
+  - pytorch
+  - torchvision
+  - pip:
+      - face-alignment
+      - pyvirtualcam
+      - pyqt5
+      - easydict
+      - yacs
